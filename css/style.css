@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+}
+.text-thin {
+  font-weight: 200;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.title-logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-top: 20px;
+}
+
+.title-super {
+  font-size: 50px;
+}
+
+.horizental-line {
+  border-top: solid 4px #7d97ad;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.featured-work {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
