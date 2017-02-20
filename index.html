@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -39,27 +41,87 @@
       <section class="col-md-4">
         <picture>
           <source media="(min-width:720px)" srcset="image/hongkong.jpg">
-          <img class="img-responsive" src="image/hongkong-small.jpg" alt="Hong Kong image">
+          <img class="img-responsive work-image" src="image/hongkong-small.jpg" alt="Hong Kong image" data-toggle="modal" data-target="#hk-modal">
         </picture>
         <h3 class="text-bold">Hong Kong</h3>
-        <p>https://github.com</p>
+        <p><a href="https://github.com/HopeSeebok/Portfolio/blob/master/image/hongkong.jpg">Links of image</a></p>
       </section>
       <section class="col-md-4">
         <picture>
           <source media="(min-width:720px)" srcset="image/holland.jpg">
-          <img class="img-responsive" src="image/holland-small.jpg" alt="Holland image">
+          <img class="img-responsive work-image" src="image/holland-small.jpg" alt="Holland image" data-toggle="modal" data-target="#holland-modal">
         </picture>
         <h3 class="text-bold">Holland</h3>
-        <p>https://github.com</p>
+        <p><a href="https://github.com/HopeSeebok/Portfolio/blob/master/image/holland.jpg">Links of image</a></p>
       </section>
       <section class="col-md-4">
         <picture>
           <source media="(min-width:720px)" srcset="image/thailand.jpg">
-          <img class="img-responsive" src="image/thailand-small.jpg" alt="Thailand image">
+          <img class="img-responsive work-image" src="image/thailand-small.jpg" alt="Thailand image" data-toggle="modal" data-target="#thailand-modal">
         </picture>
         <h3 class="text-bold">Thailand</h3>
-        <p>https://github.com</p>
+        <p><a href="https://github.com/HopeSeebok/Portfolio/blob/master/image/thailand.jpg">Links of image</a></p>
       </section>
+    </div>
+  </div>
+  <!-- Modal HK -->
+  <div class="modal fade" id="hk-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Hong Kong</h4>
+        </div>
+        <div class="modal-body">
+          <figure>
+            <img class="img-responsive" src="image/hongkong.jpg">
+            <figcaption>Mongkok</figcaption>
+          </figure>
+          <p>Hong Kong ,officially the Hong Kong Special Administrative Region of the People's Republic of China, is an autonomous territory on the Pearl River Delta of East Asia. Macau lies across the delta to the west, and the Chinese province of Guangdong borders the territory to the north. With a total land area of 1,106 square kilometres (427 sq mi) and a population of over 7.3 million of various nationalities, it ranks as the world's fourth most densely populated sovereign state or territory.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Holland -->
+  <div class="modal fade" id="holland-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Hong Kong</h4>
+        </div>
+        <div class="modal-body">
+          <figure>
+            <img class="img-responsive" src="image/holland.jpg">
+            <figcaption>holland</figcaption>
+          </figure>
+          <p>Holland is a region and former province on the western coast of the Netherlands. The name Holland is also frequently used informally to refer to the whole of the country of the Netherlands. This usage is commonly accepted in other countries, and not entirely uncommon among the Dutch themselves, though some in the Netherlands and particularly in other regions of the country may find it undesirable, misleading or insulting.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Thailand -->
+  <div class="modal fade" id="thailand-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Hong Kong</h4>
+        </div>
+        <div class="modal-body">
+          <figure>
+            <img class="img-responsive" src="image/thailand.jpg">
+            <figcaption>Phuket Island</figcaption>
+          </figure>
+          <p>Thailand, officially the Kingdom of Thailand, formerly known as Siam, is a country at the centre of the Indochinese peninsula in Southeast Asia. With a total area of approximately 513,000 km2 (198,000 sq mi), Thailand is the world's 51st-largest country. It is the 20th-most-populous country in the world, with around 66 million people. The capital and largest city is Bangkok.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 </body>
